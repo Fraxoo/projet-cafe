@@ -1,6 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-
+ 
 }
 
 a {
@@ -21,13 +21,13 @@ body {
   color: white;
   background-image: url(images/coffee-after-before-hair-transplant.png);
   background-size: cover;
-  background-position: 50% 0;
+  background-position: center;
   height: 46em;
   width: auto;
   flex-wrap: wrap;
   justify-content: center;
 
-  
+
 }
 
 .top .nav {
@@ -39,7 +39,7 @@ body {
   align-items: baseline;
   justify-content: space-between;
   height: fit-content;
-  width: 90em;
+
   flex: 1;
 
 }
@@ -70,7 +70,7 @@ body {
 
 }
 
-.top .welcome{
+.top .welcome {
   display: flex;
   flex-flow: column wrap;
   flex: 7;
@@ -79,26 +79,57 @@ body {
   padding-bottom: em;
   padding-left: 13em;
   font-weight: bold;
-  
+
 }
-.top .welcome p{
+
+.top .welcome p {
   font-size: 3em;
-  
+
 }
-  .top .welcome h1{
-    font-size: 3em;
-  }
-    .top .welcome a{
-      color: black;
-      padding: 15px 30px;
-      border-radius: 9999px;
-      background-color: white;
-      font-size: 1em;
-      cursor: pointer;
-      width: fit-content;
-      
-      
-      
-    }
+
+.top .welcome h1 {
+  font-size: 3em;
+}
+
+.top .welcome a {
+  color: black;
+  padding: 15px 30px;
+  border-radius: 9999px;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+  width: fit-content;
+
+
+
+}
 
 /* top */
+
+
+/* entre */
+
+.entre {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  height: fit-content;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.entre div {
+  display: grid;
+  margin: 0 auto;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 75em;
+}
+
+
+.entre .cold {}
