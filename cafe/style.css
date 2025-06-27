@@ -1,8 +1,104 @@
-*{
-  font-family: "Balthazar", serif;
-  border: 1px solid black;
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
-body{
-    background-color: aqua;
+a {
+  text-decoration: none;
 }
+
+body {
+  background-color: #E2D9C8;
+  padding: 7em;
+  margin: 0em;
+
+}
+
+/* top */
+.top {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url(images/coffee-after-before-hair-transplant.png);
+  background-size: cover;
+  background-position: 50% 0;
+  height: 46em;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
+
+.top .nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+  margin: 0%;
+  align-items: baseline;
+  justify-content: space-between;
+  height: fit-content;
+  width: 90em;
+  flex: 1;
+
+}
+
+.top .nav .lien {
+  display: flex;
+  gap: 2em;
+}
+
+
+
+.coffee {
+
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+
+}
+
+.lien a {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.loupe {
+  height: 2.5em;
+  width: auto;
+
+}
+
+.top .welcome{
+  display: flex;
+  flex-flow: column wrap;
+  flex: 7;
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: em;
+  padding-left: 13em;
+  font-weight: bold;
+  
+}
+.top .welcome p{
+  font-size: 3em;
+  
+}
+  .top .welcome h1{
+    font-size: 3em;
+  }
+    .top .welcome a{
+      color: black;
+      padding: 15px 30px;
+      border-radius: 9999px;
+      background-color: white;
+      font-size: 1em;
+      cursor: pointer;
+      width: fit-content;
+      
+      
+      
+    }
+
+/* top */
